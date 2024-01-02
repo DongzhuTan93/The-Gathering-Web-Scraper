@@ -1,0 +1,38 @@
+{
+  "name": "assignment-a2-the-gathering-web-scraper",
+  "description": "1DV026 - assignment-a2-the-gathering-web-scraper",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "lint": "npx eslint ./src || exit 0",
+    "lint:fix": "npx eslint ./src --fix || exit 0"
+  },
+  "contributors": [
+    "Dongzhu Tan <dt222ha@student.lnu.se>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.25.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.2",
+    "isurl": "^4.0.2",
+    "jsdom": "^19.0.0",
+    "node-fetch": "^3.1.0",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "@lnu/eslint-config": "^1.1.4",
+    "eslint": "^7.32.0",
+    "nodemon": "^2.0.15"
+  },
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.lnu.se:1dv026/student/dt222ha/assignment-a2-the-gathering-web-scraper.git"
+  },
+  "keywords": [],
+  "author": ""
+}
